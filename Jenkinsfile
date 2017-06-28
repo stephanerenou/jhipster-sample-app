@@ -5,7 +5,6 @@ pipeline {
         agent {
             docker {
                 image 'maven:3-alpine'
-                args '-v /home/bitwiseman/docker/.me:root/.m2'
             }
         }
         steps {
