@@ -22,7 +22,7 @@ pipeline {
     }
     stage('Frontend') {
       steps {
-        sh 'ech front end'
+        sh 'echo front end'
       }
     }
     stage('Static Analysis') {
